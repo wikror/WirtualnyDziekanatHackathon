@@ -1,6 +1,5 @@
 package app.courses;
 
-import app.participants.Student;
 
 import javax.persistence.*;
 import java.util.ArrayList;

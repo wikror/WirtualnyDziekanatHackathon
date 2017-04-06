@@ -21,10 +21,11 @@ public class CourseGroup {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(name = "STUDENT")
-    private Student student;
+    @Column(name = "STUDENTS")
+    @OneToMany(targetEntity = Student.class, mappedBy = "PESEL", cascade = {CascadeType.ALL})
+    private List<Student> students;
 
-    @Column(name = "GRADE")
-    private Integer grade;
+    @Column(name = "GRADES")
+    private List<Integer> grades;
 
 }
