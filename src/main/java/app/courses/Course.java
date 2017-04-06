@@ -1,6 +1,6 @@
-package main.courses;
+package main.app.courses;
 
-import main.participants.Student;
+import main.app.participants.Student;
 
 import java.util.ArrayList;
 import java.util.List;

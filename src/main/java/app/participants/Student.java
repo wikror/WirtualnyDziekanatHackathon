@@ -1,4 +1,4 @@
-package main.participants;
+package main.app.participants;
 
 
 import javax.persistence.Column;
