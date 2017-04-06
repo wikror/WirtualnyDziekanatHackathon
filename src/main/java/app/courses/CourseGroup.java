@@ -21,10 +21,10 @@ public class CourseGroup {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(name = "STUDENTS")
-    private List<Student> students = new ArrayList<>();
+    @Column(name = "STUDENT")
+    private Student student;
 
-    @Column(name = "GRADES")
-    private Map<Student, Integer> grades = new HashMap<>();
+    @Column(name = "GRADE")
+    private Integer grade;
 
 }
