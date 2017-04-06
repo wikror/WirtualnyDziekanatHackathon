@@ -1,8 +1,5 @@
 package app.courses;
 
-import main.app.participants.Student;
-
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -10,9 +7,9 @@ import java.util.List;
  */
 
 public interface Course {
+
     public String getCourseName();
     public String getTerm();
-    public List getStudents();
     public List getGroups();
 
 }
