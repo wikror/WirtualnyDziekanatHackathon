@@ -1,15 +1,17 @@
 package main.courses;
 
-import javax.persistence.Entity;
+import main.participants.Student;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by RJ on 2017-04-06.
  */
 
-@Entity
-public class Course {
+public abstract class Course {
 
     private String courseName;
-    private List<>
-
+    private String term;
+    private List<Student> students = new ArrayList<>();
 }

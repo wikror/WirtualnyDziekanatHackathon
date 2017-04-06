@@ -1,12 +1,16 @@
-package app;
+package main.participants;
 
-import com.sun.javafx.beans.IDProperty;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  * Created by wikto on 06.04.2017.
  */
 @Entity
-@Table(name = "Student")
+@Table(name = "STUDENT")
 public class Student {
 
     @Id
